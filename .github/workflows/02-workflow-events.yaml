@@ -1,9 +1,5 @@
 name: 02 - Eventos
 on:
-  push:
-  pull_request:
-  schedule:
-    - cron: '0 0 * * *' # Ejecuta el workflow diariamente a medianoche (ajustable)
   workflow_dispatch:
 
 jobs:
